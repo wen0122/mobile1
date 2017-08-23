@@ -1,0 +1,101 @@
+html{
+	font-size: 1rem;
+}
+body{
+	background: #EBEBEB;
+}
+header{
+	width: 100%;
+	height: 2.2rem;
+	background: #3DB1FA;
+	font-size: 1rem;
+	line-height: 0.3rem;
+	color: white;
+	text-align: center;
+}
+header a{
+	display: block;
+	width: 0.8rem;
+	height: 1.0rem;
+}
+header a img{
+	width: 100%;
+	height: 100%;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+.jingcai ul{
+	width: 100%;
+	margin-top: 0.65rem;
+	line-height: 2rem;
+	color: #B6B8FA;
+}
+.jingcai ul li{
+	width: 100%;
+	height: 2.0rem;
+	padding: 0 0.25rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+	background: white;
+}
+.jingcai ul li span{
+	display: inline-block;
+}
+.jingcai ul li a{
+	color: #D6D6D6;
+}
+.footer{
+	width: 100%;
+	height: 2.73rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	border-bottom: 0.05rem solid #3DB1FA;
+}
+.footer ul{
+	display: flex;
+}
+.footer ul li{
+	width: 4rem;
+	height: 2.73rem;
+	float: left;
+	flex: 1;
+	text-align: center;
+}
+.footer ul li a{
+	display: block;
+	text-align: center;
+	color: #868689;
+	font-size: 0.7rem;
+	line-height: 4rem;
+}
+.footer ul li a{
+	display: inline-block;
+	width: calc(0.725 * 2rem);
+	height: calc(0.470 * 2rem);
+	text-align: center;
+	padding-bottom: 0.5rem;
+}
+.footer ul li a span{
+	width: calc(0.725 * 2rem);
+	height: calc(0.725 * 2rem);
+}
+.footer ul li:first-child a{
+	background: url('../img/zhuye.png') no-repeat 0px 0px;
+	background-size: 100%;
+}
+.footer ul li:nth-child(2) a{
+	background: url('../img/touzi.png') no-repeat 0px 0px;
+		background-size: 100%;
+}
+.footer ul li:nth-child(3) a{
+	background: url('../img/grzx.png') no-repeat 0px 0px;
+		background-size: 100%;
+}
+.footer ul li:last-child a{
+	background: url('../img/mores.png') no-repeat 0px 0px;
+		background-size: 100%;
+}
+

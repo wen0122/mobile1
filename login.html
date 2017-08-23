@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css">
+	<script>
+	(function (doc,win) {
+            function change() {
+                doc.documentElement.style.fontSize=20*doc.documentElement.clientWidth/375+'px';
+            }
+            change();
+
+            win.addEventListener('resize',change,false);
+        })(document,window);
+	</script>
+</head>
+<body>
+	<header>
+		<a href="index.html"><img src="img/jian.png" alt=""></a>
+		登录
+	</header>
+	<div class="logn-o">
+		<ul class="ul-o">
+			<li><input type="text" placeholder="请输入用户名"></li>
+			<li><input type="text" placeholder="请输入密码"></li>
+		</ul>
+	</div>
+	<div class="deng"><a href="javascript:;">登录</a></div>
+	<div class="zhu"><a href="zhuce.html">注册</a></div>
+	<div class="footer">
+		<ul>
+			<li>
+				<a href="index.html"><span>首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="touzi.html"><span>投资</span>
+				</a>
+			</li>
+			<li>
+				<a href="person.html"><span>账户</span>
+				</a>
+			</li>
+			<li>
+				<span></span>
+				<a href="more.html"><span>更多</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

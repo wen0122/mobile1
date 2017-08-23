@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/more.css">
+	<script>
+	(function (doc,win) {
+            function change() {
+                doc.documentElement.style.fontSize=20*doc.documentElement.clientWidth/375+'px';
+            }
+            change();
+
+            win.addEventListener('resize',change,false);
+        })(document,window);
+	</script>
+</head>
+<body>
+	<header>
+		<a href="javascript:;"><img src="img/jian.png" alt=""></a>
+		我的账户
+	</header>
+	<div class="jingcai">
+		<ul>
+			<li>
+				<span class="fl">幸运大抽奖</span>
+				<a href="javascript:;" class="fr">>
+			</a>
+			</li>
+			<li>
+				<span class="fl">关于我们</span>
+				<a href="javascript:;" class="fr">>
+			</a>
+			</li>
+			<li>
+				<span class="fl">帮助中心</span>
+				<a href="javascript:;" class="fr">>
+			</a>
+			</li>
+			<li>
+				<span class="fl">网站公告</span>
+				<a href="javascript:;" class="fr">>
+			</a>
+			</li>
+		</ul>
+	</div>
+	<div class="footer">
+		<ul>
+			<li>
+				<a href="index.html"><span>首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="touzi.html"><span>投资</span>
+				</a>
+			</li>
+			<li>
+				<a href="person.html"><span>账户</span>
+				</a>
+			</li>
+			<li>
+				<span></span>
+				<a href="more.html"><span>更多</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
